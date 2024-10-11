@@ -1,0 +1,12 @@
+const d = new Date();
+d.setFullYear(2020, 11, 3);
+document.getElementById("demo1").innerHTML = d;
+const d1 = new Date();
+d1.setMonth(11);
+document.getElementById("demo2").innerHTML = d1;
+const d2 = new Date();
+d2.setDate(15);
+document.getElementById("demo3").innerHTML = d2;
+const d3 = new Date();
+d3.setDate(d3.getDate() + 50);
+document.getElementById("demo4").innerHTML = d3;
